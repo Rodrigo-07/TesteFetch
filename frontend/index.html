@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>CRUD</title>
+  </head>
+  <h1>Listagem de Usuários</h1>
+  <p><a href="/inserir.html">INSERIR NOVO USUÁRIO</a></p>
+  <p><a href="/formacao.html">Iserara</a></p>
+  <body>
+        <!-- Popup test -->
+    <button onclick="openPopup()">Open Popup</button>
+    <div id="popup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <p>This is a popup!</p>
+        <div id="resultado"></div>
+      </div>
+    </div>
+
+    <!-- Show information in the body test -->
+    <button onclick="showinformation()">Show mensage</button>
+
+    <div id="mensage">
+      <button onclick="closeinformation()">Close mensage</button>
+      <p>É foda né</p>
+      <div id="mensage_content"></div>
+    </div>
+
+  </body>
+</html>
